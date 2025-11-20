@@ -108,7 +108,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
 
-    bot_token = "1193312817:AAGTRlOs3YZHFeDSO_33YTwwewrEaMbLizE"
+    bot_token = "6868135069:AAGmILI1EvYaHdYitntNIl3Bo8Nmm13caiA"
     chat_id = "582942300"
     if not bot_token or not chat_id:
         raise SystemExit("Provide Telegram bot token and chat id via args or TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID env vars")
